@@ -1,0 +1,58 @@
+﻿## Ignore build outputs
+bin/
+obj/
+
+## Ignore Rider-specific files
+.idea/
+*.sln.iml
+
+## Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore crash logs, etc.
+*.pidb
+*.mdb
+
+## Ignore temporary files
+*.log
+*.vspscc
+*.vssscc
+*.ncb
+*.aps
+*.ilk
+*.meta
+*.tlog
+*.tmp
+*.cache
+*.pdb
+*.dbmdl
+
+## Ignore test results
+TestResults/
+*.vsix
+*.vsp
+*.psess
+
+## NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## .NET Core
+*.deps.json
+*.runtimeconfig.json
+
+## Rider caches (redundant with .idea, but safe)
+.idea/
+*.dotCover
+
+## OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
